@@ -1,0 +1,46 @@
+
+
+<?xml version="1.0" ?>
+<dailyForecast>
+  <date>2022-01-15</date>
+  <description>sunny</description>
+  <max_Temp unit="C">22</max_Temp>
+  <min_Temp unit="C">19<<min_Temp>
+  <wind_speed unit="kph">12</wind_speed>
+  <danger>True</danger>
+</dailyForecast>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<forcast>
+   <dailyForecast>
+      <date>2015-06-01</date>
+      <description>sunny</description>
+      <maxTemp unit="C">22</maxTemp>
+      <minTemp unit="C">20</minTemp>
+      <windSpeed unit="kph">12</windSpeed>
+      <danger>false</danger>
+   </dailyForecast>
+</forcast>
+
+<!-- below the is udemy solution -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<forecast>
+   <dailyForecast>
+      <date>2015-06-01</date>
+      <description>sunny</description>
+      <maxTemp unit="C">22</maxTemp>
+      <minTemp unit="C">20</minTemp>
+      <windSpeed unit="kph">12</windSpeed>
+      <danger>false</danger>
+   </dailyForecast>
+   <dailyForecast>
+      <date>2015-06-02</date>
+      <description>windy</description>
+      <maxTemp unit="C">22</maxTemp>
+      <minTemp unit="C">20</minTemp>
+      <windSpeed unit="kph">40</windSpeed>
+      <danger>true</danger>
+   </dailyForecast>
+   <dailyForecast />
+</forecast>
